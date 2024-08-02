@@ -2,7 +2,7 @@ import css from "./ContactForm.module.css";
 // import { nanoid } from "nanoid";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contacts/contactOps";
 import { useDispatch } from "react-redux";
 
 //validating schema for name and number
