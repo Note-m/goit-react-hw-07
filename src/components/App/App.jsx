@@ -3,7 +3,7 @@ import SearchBox from "../SearchBox/SearchBox";
 import ContactForm from "../ContactForm/ContactForm";
 import ContactList from "../ContactList/ContactList";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchContacts } from "../../redux/contacts/contactOps";
+import { fetchContacts } from "../../redux/filter/contactOps";
 import { loading, error } from "../../redux/contacts/contactsSelectors";
 
 const App = () => {
